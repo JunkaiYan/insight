@@ -78,13 +78,13 @@ public class Insight {
 		File result2 = new File("med_result");
 		try {
 			//Write frequencies of each word into the file "wc_result"
-			PrintWriter w1 = new PrintWriter(new FileWriter(path + '/' + result1));
+			PrintWriter w1 = new PrintWriter(new FileWriter(path + '/' + result1 + ".txt"));
 			for(String word : dictionary.keySet()){
 				w1.println(word + '\t' + dictionary.get(word));
 			}
 			w1.close();
 			//Write median number of words per line into file "mde_result"
-			PrintWriter w2 = new PrintWriter(new FileWriter(path + '/' + result2));
+			PrintWriter w2 = new PrintWriter(new FileWriter(path + '/' + result2 + ".txt"));
 			List<Integer> list = new ArrayList<Integer>();
 			//Sort the #words of a line in ascend order and find the median
 			for(int i = 0; i < wordsInline.size(); i ++){
