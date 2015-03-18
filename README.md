@@ -1,7 +1,7 @@
 # insight
 
 Development Environment:
-Java 1.7
+Java 1.7 Mac OSX
 
 Notes:
 My program finished two functions: Word Count and Running Median.
