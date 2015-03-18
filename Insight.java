@@ -35,7 +35,7 @@ public class Insight {
             String[] filelist = file.list(); 
             //Count words on each file
             for (int i = 0; i < filelist.length; i++) {           	
-            	if(i > 0) System.out.println("Prcoess the article: " + filelist[i]);
+            	System.out.println("Prcoess the article: " + filelist[i]);
                 File readfile = new File(filepath + "//" + filelist[i]);
                 wordcount(readfile);                
             }
