@@ -1,2 +1,2 @@
-javac insight.java
-java insight
+javac Insight.java
+java Insight
